@@ -1,0 +1,47 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Exec=kcmshell4 kcm_kdeconnect
+Icon=smartphone
+Type=Service
+
+X-KDE-ServiceTypes=KCModule
+
+X-KDE-Library=kcm_kdeconnect
+X-KDE-ParentApp=kcontrol
+
+X-KDE-System-Settings-Parent-Category=hardware
+
+Name=Devices
+Name[cs]=Zařízení
+Name[de]=Geräte
+Name[es]=Dispositivos
+Name[nl]=Apparaten
+Name[pt]=Dispositivos
+Name[pt_BR]=Dispositivos
+Name[sk]=Zariadenia
+Name[sv]=Apparater
+Name[uk]=Пристрої
+Name[x-test]=xxDevicesxx
+
+Comment=Connect and sync your devices with KDE
+Comment[de]=Verbinden und Abgleichen Ihrer Geräte mit KDE
+Comment[es]=Conectar y sincronizar dispositivos con KDE
+Comment[nl]=Uw apparaten met KDE verbinden en synchroniseren
+Comment[pt]=Ligue e sincronize os seus dispositivos com o KDE
+Comment[pt_BR]=Conecta e sincroniza seus dispositivos com o KDE
+Comment[sv]=Anslut och synkronisera dina apparater med KDE
+Comment[uk]=З’єднання і синхронізація ваших пристроїв з KDE
+Comment[x-test]=xxConnect and sync your devices with KDExx
+
+X-KDE-Keywords=Network,Android,Devices
+X-KDE-Keywords[de]=Netzwerk,Android,Geräte
+X-KDE-Keywords[es]=Red,Android,Dispositivos
+X-KDE-Keywords[nl]=Netwerk,Android,Apparaten
+X-KDE-Keywords[pt]=Rede,Android,Dispositivos
+X-KDE-Keywords[pt_BR]=Rede,Android,Dispositivos
+X-KDE-Keywords[sk]=Sieť,Android,Zariadenia
+X-KDE-Keywords[sv]=Nätverk, Android, apparater
+X-KDE-Keywords[uk]=Network;Android;Devices;мережа;андроїд;пристрої
+X-KDE-Keywords[x-test]=xxNetwork,Android,Devicesxx
+
+Categories=Qt;KDE;X-KDE-settings-kdeconnect;
